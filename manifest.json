@@ -22,7 +22,7 @@
       "run_at": "document_start",
       "matches": [
         "https://canva.com/*",
-        "https://*.canva.com/*",
+        "https://*.canva.com/*"
       ],
       "js": [
         "content.js"
