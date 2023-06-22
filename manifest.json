@@ -2,8 +2,8 @@
   "manifest_version": 3,
 
   "name": "Canva Closer",
-  "description": "This extension automatically closes the launched window from Canva links",
-  "version": "0.1",
+  "description": "This extension automatically closes the launched window from Canva design links when the desktop app is installed.",
+  "version": "1.1",
 
   "icons": {
     "16": "assets/icon-16.png",
@@ -19,8 +19,8 @@
     {
       "run_at": "document_start",
       "matches": [
-        "https://canva.com/*",
-        "https://*.canva.com/*"
+        "https://canva.com/design/*",
+        "https://*.canva.com/design/*"
       ],
       "js": [
         "content.js"
